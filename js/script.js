@@ -19,7 +19,7 @@ function addSite() {
     validateName();
     validateLink();
 
-    if (siteName.value() === '' || siteLink.value === '') {
+    if (siteName.value === '' || siteLink.value === '') {
         alert("Both fields must be filled out.");
         return;
     }
