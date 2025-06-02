@@ -15,6 +15,18 @@ if (localStorage.getItem('bookmarks')) {
 }
 
 function addSite() {
+
+    validateName();
+    validateLink();
+
+    if (siteName.value() === '' || siteLink.value === '') {
+        alert("Both fields must be filled out.");
+        return;
+    }
+if (!siteName.classList.contains('is-valid') || !siteLink.classList.contains('is-valid')) {
+    alert("Please enter valid values before adding.");
+    return;
+}
     var bookmarks = {
         name: siteName.value,
         link: siteLink.value
