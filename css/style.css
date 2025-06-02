@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Aladin;
+    src: url(../font/Aladin-Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../font/Montserrat-VariableFont_wght);
+}
+
+h1 {
+    font-family: Aladin;
+}
+
+input::placeholder {
+    text-transform: capitalize;
+}
+.h5 {
+    font-family: Montserrat;
+}
+.h5::first-letter {
+    text-transform: capitalize;
+}

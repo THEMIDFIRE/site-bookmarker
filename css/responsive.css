@@ -1,0 +1,38 @@
+@media screen and (min-width: 768px) {
+    header .name {
+        font-size: 4.4rem;
+    }
+    header .name .title {
+        height: 52.797px;
+    }
+    @keyframes name {
+        0%, 25% {
+            width: 12.5%;
+        }
+        80%,100% {
+            width: 70%;
+        }
+    }
+}
+@media screen and (max-width: 991px) {
+    #about .hero-img {
+        margin-bottom: 80px;
+    }
+}
+@media screen and (min-width: 1170px) {
+    header .name {
+        font-size: 6rem;
+    }
+    header .name .title {
+        height: 72px;
+
+    }
+    @keyframes name {
+        0%, 25% {
+            width: 12%;
+        }
+        80%,100% {
+            width: 70%;
+        }
+    }
+}
